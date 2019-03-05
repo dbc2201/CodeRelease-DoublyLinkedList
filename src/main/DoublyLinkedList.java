@@ -24,7 +24,11 @@ public class DoublyLinkedList {
   public String toString() {
     StringBuilder result = new StringBuilder();
 
+    //  append the "[ null <==> " to the result to depict the head node's previous is null
+    result.append("[ null <==> ");
 
+    //  append the "<==> null ] " to the result to depict the tail node's next is null
+    result.append(" <==> null ]");
 
     return result.toString();
   }
