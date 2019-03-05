@@ -43,7 +43,7 @@ public class DoublyLinkedList {
       Node temp = this.head;
 
       //  check if the node is not null
-      while (temp.next != null) {
+      while (temp != null) {
 
       }
 
