@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="class:DoublyLinkedList, method:toString;&#10;check size of linked list">
       <change beforePath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" afterDir="false" />
     </list>
     <list id="0f91b768-54d5-4943-8fb0-8dfffedefabd" name="LinkedList" comment="">
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="622">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
               <folding>
                 <element signature="e#705#706#0" expanded="true" />
                 <element signature="e#730#731#0" expanded="true" />
@@ -80,11 +79,6 @@
               <item name="DoublyLinkedList" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoublyLinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DoublyLinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoublyLinkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -97,7 +91,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551810376699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551810612094" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -146,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551809195100</updated>
-      <workItem from="1551809196519" duration="1056000" />
+      <workItem from="1551809196519" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1551809219612</created>
@@ -246,15 +240,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551810205584</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="class:DoublyLinkedList, method:toString;&#10;append string sentinels to the result">
+      <created>1551810272939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551810272939</updated>
+    </task>
+    <task id="LOCAL-00016" summary="class:DoublyLinkedList, method:toString;&#10;check size of linked list">
+      <created>1551810392291</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551810392291</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1056000" />
+    <option name="totallyTimeSpent" value="1297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -264,6 +271,7 @@
       <window_info id="Learn" order="5" />
       <window_info content_ui="combo" id="Project" order="6" weight="0.2587519" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32874617" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
@@ -272,7 +280,7 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3294271" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -338,13 +346,15 @@
     <MESSAGE value="class:DoublyLinkedList&#10;add method:main" />
     <MESSAGE value="class:DoublyLinkedList, method:main;&#10;create a new instance of the class" />
     <MESSAGE value="class:DoublyLinkedList;&#10;override method:toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="class:DoublyLinkedList;&#10;override method:toString" />
+    <MESSAGE value="class:DoublyLinkedList, method:toString;&#10;append string sentinels to the result" />
+    <MESSAGE value="class:DoublyLinkedList, method:toString;&#10;check size of linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="class:DoublyLinkedList, method:toString;&#10;check size of linked list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="622">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
           <folding>
             <element signature="e#705#706#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />

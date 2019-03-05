@@ -35,9 +35,17 @@ public class DoublyLinkedList {
       /*
       * Steps to traverse a linear linked list.
       * 1. Copy the head node's reference to a new 'Node' type reference, 'temp'
-      * 2. Check if there is a next node present for the linked list
+      * 2. Check if the node is not null
       * 3. Change the reference of 'temp' to the next node on each iteration
       * */
+
+      //  copy the head's reference to temp
+      Node temp = this.head;
+
+      //  check if the node is not null
+      while (temp.next != null) {
+
+      }
 
       //  append the "<==> null ] " to the result to depict the tail node's next is null
       result.append(" <==> null ]");
