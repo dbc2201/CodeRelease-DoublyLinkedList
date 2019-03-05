@@ -13,22 +13,28 @@ public class DoublyLinkedList {
 
   public static void main(String[] args) {
     DoublyLinkedList linkedList = new DoublyLinkedList();
-    //  System.out.println(linkedList);
+    System.out.println(linkedList);
   }
 
   /*
-  * The 'toString()' method will be used to print the values of the linked list as a String
-  * */
+   * The 'toString()' method will be used to print the values of the linked list as a String
+   * */
 
   @Override
   public String toString() {
     StringBuilder result = new StringBuilder();
 
-    //  append the "[ null <==> " to the result to depict the head node's previous is null
-    result.append("[ null <==> ");
+    //  check if the size of the linked list is zero, then display "list is empty"
+    if (size == 0) {
+      System.out.println("The list is currently empty.");
+    } else {  //  if the list is not empty, traverse and append the values
 
-    //  append the "<==> null ] " to the result to depict the tail node's next is null
-    result.append(" <==> null ]");
+      //  append the "[ null <==> " to the result to depict the head node's previous is null
+      result.append("[ null <==> ");
+
+      //  append the "<==> null ] " to the result to depict the tail node's next is null
+      result.append(" <==> null ]");
+    }
 
     return result.toString();
   }
