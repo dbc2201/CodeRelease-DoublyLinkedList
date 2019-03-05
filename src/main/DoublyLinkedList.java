@@ -11,6 +11,10 @@ public class DoublyLinkedList {
   private int size = 0;
   private Node head = null;
 
+  public static void main(String[] args) {
+
+  }
+
   private static class Node {
 
     /*

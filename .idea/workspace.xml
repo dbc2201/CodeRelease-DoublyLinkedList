@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="">
+    <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="class:Node;&#10;add getters and setters for the attributes">
       <change beforePath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" afterDir="false" />
+    </list>
+    <list id="0f91b768-54d5-4943-8fb0-8dfffedefabd" name="LinkedList" comment="">
       <change beforePath="$PROJECT_DIR$/../LinkedListStack" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListStack" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +19,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="319">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,14 +89,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551809777493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551809994145" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -104,11 +120,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="" />
+      <changelist id="0f91b768-54d5-4943-8fb0-8dfffedefabd" name="LinkedList" comment="" />
       <created>1551809195100</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551809195100</updated>
-      <workItem from="1551809196519" duration="532000" />
+      <workItem from="1551809196519" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1551809219612</created>
@@ -159,11 +176,32 @@
       <option name="project" value="LOCAL" />
       <updated>1551809694331</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="class:Node;&#10;add attributes for the class">
+      <created>1551809761556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551809761556</updated>
+    </task>
+    <task id="LOCAL-00009" summary="class:Node;&#10;add parametrized constructor">
+      <created>1551809791072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551809791072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="class:Node;&#10;add getters and setters for the attributes">
+      <created>1551809814140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551809814140</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="532000" />
+    <option name="totallyTimeSpent" value="782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
@@ -244,13 +282,30 @@
     <MESSAGE value="add comments" />
     <MESSAGE value="add specifications for attributes of class:Node" />
     <MESSAGE value="git refix" />
-    <option name="LAST_COMMIT_MESSAGE" value="git refix" />
+    <MESSAGE value="class:Node;&#10;add attributes for the class" />
+    <MESSAGE value="class:Node;&#10;add parametrized constructor" />
+    <MESSAGE value="class:Node;&#10;add getters and setters for the attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="class:Node;&#10;add getters and setters for the attributes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="319">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
