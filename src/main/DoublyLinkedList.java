@@ -13,6 +13,20 @@ public class DoublyLinkedList {
 
   public static void main(String[] args) {
     DoublyLinkedList linkedList = new DoublyLinkedList();
+    //  System.out.println(linkedList);
+  }
+
+  /*
+  * The 'toString()' method will be used to print the values of the linked list as a String
+  * */
+
+  @Override
+  public String toString() {
+    StringBuilder result = new StringBuilder();
+
+
+
+    return result.toString();
   }
 
   private static class Node {
