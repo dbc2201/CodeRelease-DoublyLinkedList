@@ -11,6 +11,10 @@ public class DoublyLinkedList {
   private int size = 0;
   private Node head = null;
 
+  /*
+  * This main method is just provided here for a demo of the DoublyLinkedList class,
+  * this method will more often be found in the application class for this list
+  * */
   public static void main(String[] args) {
     DoublyLinkedList linkedList = new DoublyLinkedList();
     System.out.println(linkedList);
@@ -19,7 +23,6 @@ public class DoublyLinkedList {
   /*
    * The 'toString()' method will be used to print the values of the linked list as a String
    * */
-
   @Override
   public String toString() {
     StringBuilder result = new StringBuilder();
@@ -63,6 +66,20 @@ public class DoublyLinkedList {
     }
 
     return result.toString();
+  }
+
+  /*
+  * Helper method to insert a node at the head of the linked list
+  * */
+  private void insertHead(int data) {
+    /*
+    * STEPS:
+    * 1.  create a new node for the 'data' item.
+    * 2.  set the 'prev' of the current HEAD to new node.
+    * 3.  set the 'next' of the new node to current HEAD.
+    * 4.  change the HEAD to new node.
+    * 5.  increment the value of size by 1.
+    * */
   }
 
   private static class Node {
