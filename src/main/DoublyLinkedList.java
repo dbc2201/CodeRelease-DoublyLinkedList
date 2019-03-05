@@ -3,8 +3,13 @@ package main;
 public class DoublyLinkedList {
 
   /*
-   *
+   *  The 'DoublyLinkedList' class will have the following attributes
+   *  1. An integer variable to hold the current size of the linked list, named 'size'.
+   *  2. A 'Node' type reference variable to point to the first node of the linked list.
    * */
+
+  private int size = 0;
+  private Node head = null;
 
   private static class Node {
 
