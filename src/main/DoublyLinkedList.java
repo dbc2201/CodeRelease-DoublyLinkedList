@@ -12,9 +12,9 @@ public class DoublyLinkedList {
   private Node head = null;
 
   /*
-  * This main method is just provided here for a demo of the DoublyLinkedList class,
-  * this method will more often be found in the application class for this list
-  * */
+   * This main method is just provided here for a demo of the DoublyLinkedList class,
+   * this method will more often be found in the application class for this list
+   * */
   public static void main(String[] args) {
     DoublyLinkedList linkedList = new DoublyLinkedList();
     System.out.println(linkedList);
@@ -40,11 +40,11 @@ public class DoublyLinkedList {
       result.append("[ null <==> ");
 
       /*
-      * Steps to traverse a linear linked list.
-      * 1. Copy the head node's reference to a new 'Node' type reference, 'temp'
-      * 2. Check if the node is not null
-      * 3. Change the reference of 'temp' to the next node on each iteration
-      * */
+       * Steps to traverse a linear linked list.
+       * 1. Copy the head node's reference to a new 'Node' type reference, 'temp'
+       * 2. Check if the node is not null
+       * 3. Change the reference of 'temp' to the next node on each iteration
+       * */
 
       //  copy the head's reference to temp
       Node temp = this.head;
@@ -73,17 +73,17 @@ public class DoublyLinkedList {
   }
 
   /*
-  * Helper method to insert a node at the head of the linked list
-  * */
+   * Helper method to insert a node at the head of the linked list
+   * */
   private void insertHead(int data) {
     /*
-    * STEPS:
-    * 1.  create a new node for the 'data' item.
-    * 2.  set the 'next' of the new node to current HEAD.
-    * 3.  set the 'prev' of the new node to null.
-    * 4.  change the HEAD to new node.
-    * 5.  increment the value of size by 1.
-    * */
+     * STEPS:
+     * 1.  create a new node for the 'data' item.
+     * 2.  set the 'next' of the new node to current HEAD.
+     * 3.  set the 'prev' of the new node to null.
+     * 4.  change the HEAD to new node.
+     * 5.  increment the value of size by 1.
+     * */
 
     //  create a new node for the 'data' item, set the next to current head, prev to null
     Node newNode = new Node(data, this.head, null);

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" afterDir="false" />
     </list>
     <list id="0f91b768-54d5-4943-8fb0-8dfffedefabd" name="LinkedList" comment="">
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+            <state relative-caret-position="-870">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="e#705#706#0" expanded="true" />
                 <element signature="e#730#731#0" expanded="true" />
@@ -92,7 +91,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551811173449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551812343337" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -141,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551809195100</updated>
-      <workItem from="1551809196519" duration="2377000" />
+      <workItem from="1551809196519" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1551809219612</created>
@@ -290,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551810780428</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add steps for inserting a node at head">
+      <created>1551811589040</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551811589040</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2377000" />
+    <option name="totallyTimeSpent" value="3013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
@@ -390,13 +396,14 @@
     <MESSAGE value="refix algo for toString, iter2" />
     <MESSAGE value="method:toString;&#10;append traversed node's data to result" />
     <MESSAGE value="method:toString;&#10;method completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="method:toString;&#10;method completed" />
+    <MESSAGE value="add steps for inserting a node at head" />
+    <option name="LAST_COMMIT_MESSAGE" value="add steps for inserting a node at head" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        <state relative-caret-position="-870">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="e#705#706#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
