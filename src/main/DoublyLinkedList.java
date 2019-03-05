@@ -48,6 +48,12 @@ public class DoublyLinkedList {
         // append the node's data to the result
         result.append(temp.getData());
 
+        // check if there is another node present after this node
+        if (temp.next != null) {
+          //  append double ended arrow after the node's value
+          result.append(" <==> ");
+        }
+
         // change the reference of temp
         temp = temp.getNext();
       }
