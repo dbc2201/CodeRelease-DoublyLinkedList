@@ -12,7 +12,7 @@ public class DoublyLinkedList {
   private Node head = null;
 
   public static void main(String[] args) {
-
+    DoublyLinkedList linkedList = new DoublyLinkedList();
   }
 
   private static class Node {
