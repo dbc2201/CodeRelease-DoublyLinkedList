@@ -18,6 +18,10 @@ public class DoublyLinkedList {
   public static void main(String[] args) {
     DoublyLinkedList linkedList = new DoublyLinkedList();
     System.out.println(linkedList);
+    for (int i = 0; i < 5; i++) {
+      linkedList.insertHead(i + 1);
+    }
+    System.out.println(linkedList);
   }
 
   /*
@@ -75,11 +79,21 @@ public class DoublyLinkedList {
     /*
     * STEPS:
     * 1.  create a new node for the 'data' item.
-    * 2.  set the 'prev' of the current HEAD to new node.
-    * 3.  set the 'next' of the new node to current HEAD.
+    * 2.  set the 'next' of the new node to current HEAD.
+    * 3.  set the 'prev' of the new node to null.
     * 4.  change the HEAD to new node.
     * 5.  increment the value of size by 1.
     * */
+
+    //  create a new node for the 'data' item, set the next to current head, prev to null
+    Node newNode = new Node(data, this.head, null);
+
+    //  change the HEAD to new node
+    this.head = newNode;
+
+    //  increment the value of size by 1
+    size++;
+
   }
 
   private static class Node {
