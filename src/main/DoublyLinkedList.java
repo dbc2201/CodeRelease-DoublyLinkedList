@@ -93,6 +93,12 @@ public class DoublyLinkedList {
 
     //  increment the value of size by 1
     size++;
+  }
+
+  /*
+   * Helper method to insert a new node after a node
+   * */
+  private void insertAfter(int data, Node node) {
 
   }
 
