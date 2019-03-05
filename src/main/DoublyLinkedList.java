@@ -45,6 +45,11 @@ public class DoublyLinkedList {
       //  check if the node is not null
       while (temp != null) {
 
+        // append the node's data to the result
+        result.append(temp.getData());
+
+        // change the reference of temp
+        temp = temp.getNext();
       }
 
       //  append the "<==> null ] " to the result to depict the tail node's next is null
