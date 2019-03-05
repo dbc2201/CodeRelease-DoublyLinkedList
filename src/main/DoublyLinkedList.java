@@ -15,6 +15,9 @@ public class DoublyLinkedList {
     * 3. A 'Node' type reference variable to hold the reference of the 'Previous Node', named 'prev'.
     * */
 
+    private int data;
+    private Node next;
+    private Node prev;
 
   }
 
