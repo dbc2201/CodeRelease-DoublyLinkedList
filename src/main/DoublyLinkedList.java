@@ -154,6 +154,11 @@ public class DoublyLinkedList {
 
   }
 
+  private int deleteHead() {
+    int response = -1;
+    return response;
+  }
+
   private static class Node {
 
     /*
