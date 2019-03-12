@@ -168,6 +168,11 @@ public class DoublyLinkedList {
       //  shift the HEAD of the list to the next node
       this.head = this.head.getNext();
     }
+    return response;
+  }
+
+  private int deleteAfter(Node node) {
+    int response = -1;
 
     return response;
   }
