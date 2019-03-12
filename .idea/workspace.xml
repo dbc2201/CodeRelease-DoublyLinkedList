@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="417">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding>
                 <element signature="e#3830#3831#0" expanded="true" />
                 <element signature="e#3855#3856#0" expanded="true" />
@@ -49,6 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>temp.ne</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,9 +65,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="683" />
     <option name="y" value="27" />
-    <option name="width" value="673" />
+    <option name="width" value="1356" />
     <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -77,9 +81,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552367885072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552369292196" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SinglyLinkedListPractice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -127,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551809195100</updated>
       <workItem from="1551809196519" duration="4026000" />
-      <workItem from="1552366071616" duration="1740000" />
+      <workItem from="1552366071616" duration="3558000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1551809219612</created>
@@ -325,11 +329,39 @@
       <option name="project" value="LOCAL" />
       <updated>1552367569488</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="implement method:deleteHead">
+      <created>1552367822213</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552367822213</updated>
+    </task>
+    <task id="LOCAL-00030" summary="modify method:main;&#10;use the returned value from method:deleteHead">
+      <created>1552367916489</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552367916489</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add method:deleteAfter to delete a node adjacent to a node">
+      <created>1552367982217</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552367982217</updated>
+    </task>
+    <task id="LOCAL-00032" summary="implement method:deleteAfter">
+      <created>1552368912044</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1552368912044</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5766000" />
+    <option name="totallyTimeSpent" value="7584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
@@ -404,10 +436,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add nested class:Node" />
-    <MESSAGE value="add comments" />
-    <MESSAGE value="add specifications for attributes of class:Node" />
-    <MESSAGE value="git refix" />
     <MESSAGE value="class:Node;&#10;add attributes for the class" />
     <MESSAGE value="class:Node;&#10;add parametrized constructor" />
     <MESSAGE value="class:Node;&#10;add getters and setters for the attributes" />
@@ -429,13 +457,17 @@
     <MESSAGE value="implement method:insertAfter" />
     <MESSAGE value="implement method:insert" />
     <MESSAGE value="add method:deleteHead to delete the HEAD of the linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method:deleteHead to delete the HEAD of the linked list" />
+    <MESSAGE value="implement method:deleteHead" />
+    <MESSAGE value="modify method:main;&#10;use the returned value from method:deleteHead" />
+    <MESSAGE value="add method:deleteAfter to delete a node adjacent to a node" />
+    <MESSAGE value="implement method:deleteAfter" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement method:deleteAfter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="417">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#3830#3831#0" expanded="true" />
             <element signature="e#3855#3856#0" expanded="true" />

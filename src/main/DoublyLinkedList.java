@@ -24,6 +24,13 @@ public class DoublyLinkedList {
     int value = linkedList.deleteHead();
     System.out.println(value + " was the previous HEAD and has been deleted from the list!");
     System.out.println(linkedList);
+    int del = 4;
+    int value2 = linkedList.delete(del);
+    if (value2 != -1) {
+      System.out.println(value2 + " deleted from the list");
+    } else {
+      System.out.println(del + " not found in the list");
+    }
   }
 
   /*
@@ -178,7 +185,7 @@ public class DoublyLinkedList {
 
   private int deleteAfter(Node nodePrev) {
     //  create a response variable to store the data of the deleted node
-    int response = -1;
+    int response = nodePrev.getNext().getData();
 
     //   store the reference of the node next to the node being deleted
     Node nodeAfter = nodePrev.getNext().getNext();
@@ -190,6 +197,33 @@ public class DoublyLinkedList {
     nodeAfter.setPrev(nodePrev);
 
     //  return the value of the deleted node, or -1 if none
+    return response;
+  }
+
+  /*
+  * Public method 'delete' to search for a particular data item inside the list
+  * and delete the node that contains it
+  * */
+  public int delete(int data) {
+    int response = -1;
+
+    if (this.head == null) {
+      System.out.println("The list is already empty!");
+    } else {
+      //  traverse the linked list and search for the node that contains 'data'
+
+      //  copy the reference for the current HEAD to temp
+      Node temp = this.head;
+
+      while (temp.getNext() != null) {
+        if (temp.getNext().getData() == data) {
+          response = deleteAfter(temp);
+          break;
+        }
+        temp = temp.getNext();
+      }
+    }
+
     return response;
   }
 
