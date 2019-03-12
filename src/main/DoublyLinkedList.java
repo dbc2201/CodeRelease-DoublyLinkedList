@@ -21,6 +21,8 @@ public class DoublyLinkedList {
       linkedList.insert(i + 1);
     }
     System.out.println(linkedList);
+    linkedList.deleteHead();
+    System.out.println(linkedList);
   }
 
   /*
@@ -155,7 +157,17 @@ public class DoublyLinkedList {
   }
 
   private int deleteHead() {
+    //  create a response variable to store the data of the deleted node
     int response = -1;
+
+    //  check if the list is not empty
+    if (this.head != null) {
+      //  save the data of the node being deleted
+      response = this.head.getData();
+      //  shift the HEAD of the list to the next node
+      this.head = this.head.getNext();
+    }
+
     return response;
   }
 
