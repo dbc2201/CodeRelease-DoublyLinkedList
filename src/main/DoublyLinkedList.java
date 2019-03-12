@@ -58,7 +58,7 @@ public class DoublyLinkedList {
         result.append(temp.getData());
 
         // check if there is another node present after this node
-        if (temp.next != null) {
+        if (temp.getNext() != null) {
           //  append double ended arrow after the node's value
           result.append(" <==> ");
         }
@@ -147,7 +147,7 @@ public class DoublyLinkedList {
       //  copy the reference of the head node
       Node temp = this.head;
       //  traverse the linked list to the end
-      while (temp.next != null) {
+      while (temp.getNext() != null) {
         //  update the temp to the next node
         temp = temp.getNext();
       }
@@ -167,13 +167,29 @@ public class DoublyLinkedList {
       response = this.head.getData();
       //  shift the HEAD of the list to the next node
       this.head = this.head.getNext();
+
+      //  decrement the value of size by 1
+      size--;
     }
+
+    //  return the value of the deleted node, or -1 if none
     return response;
   }
 
-  private int deleteAfter(Node node) {
+  private int deleteAfter(Node nodePrev) {
+    //  create a response variable to store the data of the deleted node
     int response = -1;
 
+    //   store the reference of the node next to the node being deleted
+    Node nodeAfter = nodePrev.getNext().getNext();
+
+    //  set the next reference of the node previous to the node being deleted
+    nodePrev.setNext(nodeAfter);
+
+    //  set the previous reference of the nodeAfter to nodePrev
+    nodeAfter.setPrev(nodePrev);
+
+    //  return the value of the deleted node, or -1 if none
     return response;
   }
 
