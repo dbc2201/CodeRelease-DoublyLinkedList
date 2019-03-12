@@ -99,6 +99,30 @@ public class DoublyLinkedList {
    * Helper method to insert a new node after a node
    * */
   private void insertAfter(int data, Node node) {
+    /*
+     * STEPS:
+     * 1. create a new node for the 'data' item, name it 'newNode'.
+     * 2. set the newNode's next reference to node's next.
+     * 3. set the previous reference of node's next to 'newNode'.
+     * 4. set the node's next to 'newNode'.
+     * 5. set the newNode's previous to 'node'.
+     * 6. increment the value of size by 1
+     * */
+    /*
+    * create a new node named 'newNode',
+    * set the new node's next reference to the old node's next node
+    * set the new node's previous reference to the old node
+    * */
+    Node newNode = new Node(data, node.getNext(), node);
+
+    //  set the old node's next's previous reference to 'newNode'
+    newNode.getNext().setPrev(newNode);
+
+    //  set the next reference of the old node to 'newNode'
+    node.setNext(newNode);
+
+    //  increment the value of size by 1
+    this.size++;
 
   }
 
