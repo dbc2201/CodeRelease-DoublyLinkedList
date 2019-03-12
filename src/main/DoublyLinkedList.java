@@ -17,9 +17,8 @@ public class DoublyLinkedList {
    * */
   public static void main(String[] args) {
     DoublyLinkedList linkedList = new DoublyLinkedList();
-    System.out.println(linkedList);
-    for (int i = 0; i < 5; i++) {
-      linkedList.insertHead(i + 1);
+    for (int i = 0; i < 10; i++) {
+      linkedList.insert(i + 1);
     }
     System.out.println(linkedList);
   }
@@ -103,10 +102,9 @@ public class DoublyLinkedList {
      * STEPS:
      * 1. create a new node for the 'data' item, name it 'newNode'.
      * 2. set the newNode's next reference to node's next.
-     * 3. set the previous reference of node's next to 'newNode'.
-     * 4. set the node's next to 'newNode'.
-     * 5. set the newNode's previous to 'node'.
-     * 6. increment the value of size by 1
+     * 3. set the node's next to 'newNode'.
+     * 4. set the newNode's previous to 'node'.
+     * 5. increment the value of size by 1
      * */
     /*
     * create a new node named 'newNode',
@@ -115,14 +113,44 @@ public class DoublyLinkedList {
     * */
     Node newNode = new Node(data, node.getNext(), node);
 
-    //  set the old node's next's previous reference to 'newNode'
-    newNode.getNext().setPrev(newNode);
-
     //  set the next reference of the old node to 'newNode'
     node.setNext(newNode);
 
     //  increment the value of size by 1
     this.size++;
+
+  }
+
+  /*
+  * public method to insert a data item in a linked list
+  * This is the only method available to any user of this linked list class!
+  * */
+  public void insert(int data) {
+    /*
+    * Steps:
+    * 1.  Check whether the list is empty,
+    *     if yes, then insert the data item at head, call insertHead()
+    *     if no, insert the data item at the end of the list, call insertAfter()
+    * */
+
+    //  check if the list is empty
+    if (this.head == null) {
+      //  insert the data at head
+      insertHead(data);
+    } else {
+      //  if the list is not empty, we will insert the data at the end of the list
+      //  Traverse to the end of the list
+
+      //  copy the reference of the head node
+      Node temp = this.head;
+      //  traverse the linked list to the end
+      while (temp.next != null) {
+        //  update the temp to the next node
+        temp = temp.getNext();
+      }
+      //  insert the data item after the last node in the list
+      insertAfter(data, temp);
+    }
 
   }
 

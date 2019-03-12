@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" afterDir="false" />
     </list>
     <list id="0f91b768-54d5-4943-8fb0-8dfffedefabd" name="LinkedList" comment="">
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="125" column="4" lean-forward="true" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
+            <state relative-caret-position="670">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -59,27 +58,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DoublyLinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoublyLinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551812589977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552367386005" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -129,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551809195100</updated>
       <workItem from="1551809196519" duration="4026000" />
-      <workItem from="1552366071616" duration="904000" />
+      <workItem from="1552366071616" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1551809219612</created>
@@ -306,11 +290,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551812609638</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="implement method:insertAfter">
+      <created>1552366993006</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552366993006</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4930000" />
+    <option name="totallyTimeSpent" value="5239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
@@ -385,7 +376,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
     <MESSAGE value="init commit, iter2" />
     <MESSAGE value="add class:DoublyLinkedList" />
     <MESSAGE value="add nested class:Node" />
@@ -410,13 +400,14 @@
     <MESSAGE value="method:insertHead;&#10;implement method, algo1, iter1" />
     <MESSAGE value="pretty format" />
     <MESSAGE value="add method:insertAfter to add a new node after a node" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method:insertAfter to add a new node after a node" />
+    <MESSAGE value="implement method:insertAfter" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement method:insertAfter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="125" column="4" lean-forward="true" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
+        <state relative-caret-position="670">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
         </state>
       </provider>
     </entry>
