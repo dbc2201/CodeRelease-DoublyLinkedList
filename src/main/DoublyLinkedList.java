@@ -21,7 +21,8 @@ public class DoublyLinkedList {
       linkedList.insert(i + 1);
     }
     System.out.println(linkedList);
-    linkedList.deleteHead();
+    int value = linkedList.deleteHead();
+    System.out.println(value + " was the previous HEAD and has been deleted from the list!");
     System.out.println(linkedList);
   }
 
