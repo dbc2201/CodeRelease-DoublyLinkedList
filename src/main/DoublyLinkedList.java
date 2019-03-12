@@ -31,6 +31,8 @@ public class DoublyLinkedList {
     } else {
       System.out.println(del + " not found in the list");
     }
+    int found = linkedList.search(8);
+    System.out.println("8 found at location " + found + ". (if -1, then it isn't present)");
   }
 
   /*
@@ -222,6 +224,24 @@ public class DoublyLinkedList {
         }
         temp = temp.getNext();
       }
+    }
+
+    return response;
+  }
+
+  public int search(int data) {
+    int response = -1;
+    int ctr = 0;
+
+    Node temp = this.head;
+
+    while (temp != null) {
+      ctr++;
+      if (temp.getData() == data) {
+        response = ctr;
+        break;
+      }
+      temp = temp.getNext();
     }
 
     return response;
