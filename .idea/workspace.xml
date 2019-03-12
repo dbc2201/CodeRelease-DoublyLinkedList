@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ef04ad8-35e2-41d9-abf8-0587bc5909c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DoublyLinkedList.java" afterDir="false" />
     </list>
     <list id="0f91b768-54d5-4943-8fb0-8dfffedefabd" name="LinkedList" comment="">
       <change beforePath="$PROJECT_DIR$/../LinkedListStack" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListStack" afterDir="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="e#3830#3831#0" expanded="true" />
                 <element signature="e#3855#3856#0" expanded="true" />
@@ -81,7 +80,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552369292196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552370793364" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SinglyLinkedListPractice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -131,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551809195100</updated>
       <workItem from="1551809196519" duration="4026000" />
-      <workItem from="1552366071616" duration="3558000" />
+      <workItem from="1552366071616" duration="4470000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1551809219612</created>
@@ -357,15 +356,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552368912044</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="implement main method, add call for insert and delete">
+      <created>1552369647508</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1552369647508</updated>
+    </task>
+    <task id="LOCAL-00034" summary="modify method:main">
+      <created>1552369920971</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1552369920971</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7584000" />
+    <option name="totallyTimeSpent" value="8496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -436,8 +448,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class:Node;&#10;add attributes for the class" />
-    <MESSAGE value="class:Node;&#10;add parametrized constructor" />
     <MESSAGE value="class:Node;&#10;add getters and setters for the attributes" />
     <MESSAGE value="class:DoublyLinkedList&#10;add attributes for the class" />
     <MESSAGE value="class:DoublyLinkedList&#10;add method:main" />
@@ -461,13 +471,15 @@
     <MESSAGE value="modify method:main;&#10;use the returned value from method:deleteHead" />
     <MESSAGE value="add method:deleteAfter to delete a node adjacent to a node" />
     <MESSAGE value="implement method:deleteAfter" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement method:deleteAfter" />
+    <MESSAGE value="implement main method, add call for insert and delete" />
+    <MESSAGE value="modify method:main" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify method:main" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="e#3830#3831#0" expanded="true" />
             <element signature="e#3855#3856#0" expanded="true" />
